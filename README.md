@@ -6,6 +6,6 @@
 ## Dev zone
 
 ```shell 
-tar --dereference -cvzf ghpages.tar docs
+tar --dereference -C docs -cvzf ghpages.tar.gz .
 ```
 
